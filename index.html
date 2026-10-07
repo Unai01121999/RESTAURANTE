@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AURUM — Alta cocina contemporánea</title>
+  <meta name="description" content="AURUM, restaurante de alta cocina con menú degustación, bodega de autor y una experiencia gastronómica irrepetible.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a href="#inicio" class="logo">AURUM</a>
+  <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span></button>
+  <nav id="menu">
+    <a href="#filosofia">Filosofía</a>
+    <a href="#carta">Carta</a>
+    <a href="#experiencia">Experiencia</a>
+    <a href="#bodega">Bodega</a>
+    <a href="#galeria">Galería</a>
+    <a href="#reservas" class="btn btn-sm">Reservar</a>
+  </nav>
+</header>
+
+<section class="hero" id="inicio">
+  <div class="hero-bg"></div>
+  <div class="hero-content reveal">
+    <p class="eyebrow">Alta cocina contemporánea · Desde 2012</p>
+    <h1>El arte de<br><em>saborear el tiempo</em></h1>
+    <p class="lead">Un viaje de doce pasos por la tierra y el mar, guiado por el fuego, la paciencia y el producto de temporada.</p>
+    <div class="cta">
+      <a href="#reservas" class="btn">Reservar mesa</a>
+      <a href="#carta" class="btn btn-ghost">Descubrir la carta</a>
+    </div>
+  </div>
+  <div class="stars" aria-label="Reconocimientos">
+    <span>★★ Guía Michelin</span><span>3 Soles Repsol</span><span>Top 50 Restaurantes</span>
+  </div>
+  <a href="#filosofia" class="scroll" aria-label="Bajar"><span></span></a>
+</section>
+
+<section class="section" id="filosofia">
+  <div class="wrap split">
+    <div class="reveal">
+      <p class="eyebrow">Nuestra filosofía</p>
+      <h2>Cocina de <em>origen</em>,<br>servida con calma</h2>
+    </div>
+    <div class="reveal">
+      <p>En AURUM entendemos la gastronomía como un diálogo entre el territorio y la técnica. Trabajamos con pequeños productores, pescadores y hortelanos que nos entregan cada mañana lo mejor de la estación.</p>
+      <p>Cada plato es una conversación silenciosa: sin artificios, con precisión y emoción. El resultado es una cocina honesta, profunda y elegante.</p>
+      <div class="chef">
+        <div class="sig">Alejandro Vidal</div>
+        <span>Chef y fundador</span>
+      </div>
+    </div>
+  </div>
+  <div class="wrap stats reveal">
+    <div><strong>12</strong><span>pasos de degustación</span></div>
+    <div><strong>800</strong><span>referencias en bodega</span></div>
+    <div><strong>24</strong><span>comensales por servicio</span></div>
+    <div><strong>2</strong><span>estrellas Michelin</span></div>
+  </div>
+</section>
+
+<section class="section dark" id="carta">
+  <div class="wrap">
+    <div class="center reveal">
+      <p class="eyebrow">La carta</p>
+      <h2>Sabores de <em>temporada</em></h2>
+    </div>
+    <div class="tabs reveal" role="tablist">
+      <button class="tab active" data-tab="entrantes" role="tab">Entrantes</button>
+      <button class="tab" data-tab="principales" role="tab">Principales</button>
+      <button class="tab" data-tab="postres" role="tab">Postres</button>
+    </div>
+
+    <div class="panel active" id="entrantes">
+      <article class="dish"><div><h3>Ostra Gillardeau</h3><p>Perlas de pepino, aceite de eneldo y nieve de limón verde</p></div><span class="price">28</span></article>
+      <article class="dish"><div><h3>Tartar de gamba roja</h3><p>Caviar Oscietra, crema ahumada y flor de capuchina</p></div><span class="price">42</span></article>
+      <article class="dish"><div><h3>Foie micuit</h3><p>Brioche tostado, chutney de higos y sal de Maldon</p></div><span class="price">34</span></article>
+      <article class="dish"><div><h3>Huevo a baja temperatura</h3><p>Trufa negra de invierno, parmentier y jugo de ave</p></div><span class="price">36</span></article>
+    </div>
+    <div class="panel" id="principales">
+      <article class="dish"><div><h3>Lubina salvaje</h3><p>Beurre blanc de azafrán, espárrago blanco y caviar de hierbas</p></div><span class="price">58</span></article>
+      <article class="dish"><div><h3>Solomillo de vaca madurada</h3><p>45 días de maduración, puré de patata ahumada y jugo de Pedro Ximénez</p></div><span class="price">66</span></article>
+      <article class="dish"><div><h3>Cordero lechal asado</h3><p>Costra de hierbas, berenjena ahumada y miel de romero</p></div><span class="price">62</span></article>
+      <article class="dish"><div><h3>Rodaballo a la brasa</h3><p>Emulsión de mantequilla tostada, almejas y puerro carbonizado</p></div><span class="price">64</span></article>
+    </div>
+    <div class="panel" id="postres">
+      <article class="dish"><div><h3>Esfera de chocolate grand cru</h3><p>Corazón de avellana, oro comestible y helado de vainilla de Tahití</p></div><span class="price">22</span></article>
+      <article class="dish"><div><h3>Soufflé de Grand Marnier</h3><p>Crema inglesa de naranja sanguina</p></div><span class="price">20</span></article>
+      <article class="dish"><div><h3>Selección de quesos</h3><p>Artesanos de cuevas curadas, membrillo y frutos secos</p></div><span class="price">24</span></article>
+    </div>
+    <p class="note reveal">Precios en euros, IVA incluido. Consulte alérgenos con nuestro equipo de sala.</p>
+  </div>
+</section>
+
+<section class="section" id="experiencia">
+  <div class="wrap">
+    <div class="center reveal">
+      <p class="eyebrow">Experiencias</p>
+      <h2>Menús <em>degustación</em></h2>
+    </div>
+    <div class="cards">
+      <article class="card reveal">
+        <h3>Origen</h3>
+        <p class="sub">8 pasos · 2 h</p>
+        <p>Un recorrido por los clásicos de la casa y las creaciones de temporada.</p>
+        <div class="big">145 €</div>
+        <small>Maridaje 75 €</small>
+      </article>
+      <article class="card featured reveal">
+        <span class="badge">Recomendado</span>
+        <h3>Aurum</h3>
+        <p class="sub">12 pasos · 3 h</p>
+        <p>Nuestra experiencia completa: caviar, trufa, mar y brasa, con petit fours.</p>
+        <div class="big">225 €</div>
+        <small>Maridaje 120 € · Maridaje Premium 210 €</small>
+      </article>
+      <article class="card reveal">
+        <h3>Jardín</h3>
+        <p class="sub">8 pasos · 2 h · Vegetal</p>
+        <p>Una propuesta íntegramente vegetal con producto de nuestros hortelanos.</p>
+        <div class="big">125 €</div>
+        <small>Maridaje 65 €</small>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section dark" id="bodega">
+  <div class="wrap split">
+    <div class="reveal">
+      <p class="eyebrow">La bodega</p>
+      <h2>Ochocientas etiquetas,<br><em>una sola historia</em></h2>
+      <p>Nuestro sumiller ha reunido una cava de pequeños viñadores, añadas históricas y grandes nombres de Borgoña, Champagne, Rioja y Ribera del Duero.</p>
+      <p>Disponemos de sala privada para catas y cenas de hasta 10 personas, con selección de la mano de nuestro equipo.</p>
+      <a href="#reservas" class="btn btn-ghost">Reservar la sala privada</a>
+    </div>
+    <ul class="wines reveal">
+      <li><span>Champagne Krug Grande Cuvée</span><em>Brut NV</em></li>
+      <li><span>Vega Sicilia Único</span><em>2012</em></li>
+      <li><span>Pingus</span><em>2015</em></li>
+      <li><span>Meursault 1er Cru</span><em>2018</em></li>
+      <li><span>Barolo Riserva</span><em>2013</em></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section" id="galeria">
+  <div class="wrap">
+    <div class="center reveal">
+      <p class="eyebrow">Galería</p>
+      <h2>Un <em>espacio</em> para quedarse</h2>
+    </div>
+    <div class="gallery reveal">
+      <figure class="g1"><span>El comedor</span></figure>
+      <figure class="g2"><span>La brasa</span></figure>
+      <figure class="g3"><span>La bodega</span></figure>
+      <figure class="g4"><span>Sala privada</span></figure>
+      <figure class="g5"><span>Terraza</span></figure>
+    </div>
+    <p class="note reveal">Sustituya estos bloques por sus fotografías: <code>style="background-image:url(img/foto.jpg)"</code>.</p>
+  </div>
+</section>
+
+<section class="section dark" id="testimonios">
+  <div class="wrap center">
+    <p class="eyebrow reveal">Opiniones</p>
+    <div class="quotes reveal" id="quotes">
+      <blockquote class="show">“Una de las mejores cenas de mi vida. Técnica impecable y un servicio que te hace sentir en casa.”<cite>— The Gourmet Review</cite></blockquote>
+      <blockquote>“El menú Aurum es una obra maestra. Cada plato cuenta una historia.”<cite>— Elena M., comensal</cite></blockquote>
+      <blockquote>“La bodega merece una visita aparte. Maridaje sublime.”<cite>— Revista Vinum</cite></blockquote>
+    </div>
+    <div class="dots" id="dots"></div>
+  </div>
+</section>
+
+<section class="section" id="reservas">
+  <div class="wrap split">
+    <div class="reveal">
+      <p class="eyebrow">Reservas</p>
+      <h2>Reserve su <em>mesa</em></h2>
+      <p>Reservas con hasta 60 días de antelación. Para grupos de más de 8 personas, escríbanos directamente.</p>
+      <ul class="info">
+        <li><strong>Dirección</strong>Calle del Prado 24, 28014 Madrid</li>
+        <li><strong>Horario</strong>Mar – Sáb · 13:30–15:30 y 20:30–23:00<br>Domingo y lunes cerrado</li>
+        <li><strong>Teléfono</strong><a href="tel:+34910000000">+34 910 000 000</a></li>
+        <li><strong>Email</strong><a href="mailto:reservas@aurum.es">reservas@aurum.es</a></li>
+        <li><strong>Código de vestimenta</strong>Elegante casual</li>
+      </ul>
+    </div>
+    <form class="form reveal" id="form" novalidate>
+      <div class="row">
+        <label>Nombre<input name="nombre" required autocomplete="name"></label>
+        <label>Teléfono<input name="telefono" type="tel" required autocomplete="tel"></label>
+      </div>
+      <label>Email<input name="email" type="email" required autocomplete="email"></label>
+      <div class="row">
+        <label>Fecha<input name="fecha" type="date" required id="fecha"></label>
+        <label>Hora
+          <select name="hora" required>
+            <option value="">Seleccionar</option>
+            <option>13:30</option><option>14:00</option><option>15:00</option>
+            <option>20:30</option><option>21:00</option><option>22:00</option>
+          </select>
+        </label>
+      </div>
+      <div class="row">
+        <label>Comensales
+          <select name="personas" required>
+            <option value="">Seleccionar</option>
+            <option>1</option><option>2</option><option>3</option><option>4</option>
+            <option>5</option><option>6</option><option>7</option><option>8</option>
+          </select>
+        </label>
+        <label>Menú
+          <select name="menu">
+            <option>Aurum (12 pasos)</option><option>Origen (8 pasos)</option><option>Jardín (vegetal)</option><option>A la carta</option>
+          </select>
+        </label>
+      </div>
+      <label>Alergias o celebraciones<textarea name="notas" rows="3"></textarea></label>
+      <button class="btn" type="submit">Solicitar reserva</button>
+      <p class="msg" id="msg" role="status"></p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <a href="#inicio" class="logo">AURUM</a>
+  <p>Calle del Prado 24, Madrid · +34 910 000 000</p>
+  <div class="social"><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">TripAdvisor</a></div>
+  <small>© <span id="year"></span> AURUM Restaurante. Todos los derechos reservados.</small>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
